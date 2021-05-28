@@ -31,7 +31,7 @@ For explanation of the tool and an helpful menu, use the following arguments:
 >    buy    : Add the bought products to stock
 >    report : Make a report 
 >    sell   : Provide the sold item
->
+>    advance: Set date as date perceived as today
 >```
 
 ### The buying products function to fill the stock:
@@ -87,6 +87,12 @@ To export the the reports to a .csv file (named 'report.csv') the input '-f true
 To export the reports into a .pdf file (named 'report.pdf') the inpit '-pdf true' should be given as last in the command line:
 >```
 > py main.py report profit -d 22-05-2021 -f true -pdf true
+>```
+
+### To advance time:
+>```
+>For explanation of the advancing the time, use the following sub command and argument:
+>py main.py advance date -d (followed by the desired date)
 >```
 
 ## Following, some possible inputs and their results will be given:
